@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/demo.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Willberries</title>
+</head>
+
+<body>
+    <header class="container header px-4 px-md-0">
+        <div class="row justify-content-between align-items-center">
+            <div class="col-lg-2 col-6" class="logo-link">
+                <a href="#">
+                    <img width="128" src="img/logo.svg" alt="logo: Willberries" class="logo-img">
+                </a>
+            </div>
+            <div class="col-lg-6 d-none d-lg-block">
+                <nav>
+                    <ul class="navigation d-flex justify-content-around">
+                        <li class="navigation-item">
+                            <a href="#" class="navigation-link js-open-modal" data-modal="1">Womens</a>
+                        </li>
+
+                        <li class="navigation-item">
+                            <a href="#" class="navigation-link js-open-modal" data-modal="1">Mens</a>
+                        </li>
+
+                        <li class="navigation-item">
+                            <a href="#" class="navigation-link js-open-modal" data-modal="1">Goods</a>
+                        </li>
+
+                        <li class="navigation-item">
+                            <a href="#" class="navigation-link js-open-modal" data-modal="1">Accessories</a>
+                        </li>
+
+                        <li class="navigation-item">
+                            <a href="#" class="navigation-link js-open-modal" data-modal="1">Brands</a>
+                        </li>
+                        <li class="navigation-item">
+                            <a href="#" class="navigation-link js-open-modal" data-modal="1">Blog</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-lg-2 col-6 d-flex justify-content-end">
+                <button class="button js-open-modal" data-modal="2">
+                   <img src="img/cart-btn.svg" alt="icon: cart" class="button-icon">
+                   <span class="button-text">Cart</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <div class="slider swiper-container">
+        <div class="swiper-wrapper">
+
+            <section class="slide slide-1 swiper-slide">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-10 offset-lg-1">
+                            <span class="label">Bestseller</span>
+                            <h2 class="slide-title">Sweater Choker Neck </h2>
+                            <p class="slide-description">Women’s pearl basic knit sweater with a round neck. Available in several colours. Free shipping to stores.</p>
+                            <button class="button js-open-modal" data-modal="2">
+                                <span class="button-price">$319</span>
+                                <span class="button-text">Shop now</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>  
+            </section>
+
+            <section class="slide slide-2 swiper-slide">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-10 offset-lg-1">
+                            <span class="label">New</span>
+                            <h2 class="slide-title">Hoodie</h2>
+                            <p class="slide-description">Hoodie – your own design. As a decoration, there is a spectacular retro branding on the chest and graphics on the sleeve.</p>
+                            <button class="button js-open-modal" data-modal="2">
+                                <span class="button-price">$300</span>
+                                <span class="button-text">Shop now</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>  
+            </section>
+
+            <section class="slide slide-3 swiper-slide">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-10 offset-lg-1">
+                            <span class="label">New</span>
+                            <h2 class="slide-title">Shirt</h2>
+                            <p class="slide-description">This stylish, fitted, long-sleeve shirt will bring casual elegance to your wardrobe.</p>
+                            <button class="button js-open-modal" data-modal="2">
+                                <span class="button-price">$150</span>
+                                <span class="button-text">Shop now</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>  
+            </section>
+
+        </div>
+       
+        <div class="slider-nav">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-1">
+                        <button class="slide-button slider-button-prev">
+                          <img src="img/Arrow-prew.svg" alt="btn: arrow-prew">  
+                        </button>    
+                    </div>
+                    <div class="col-1">
+                        <button class="slide-button slider-button-next">
+                            <img src="img/Arrow-next.svg" alt="btn: arrow-next">  
+                          </button> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /.slider -->
+
+    <div class="container pt-5 pb-4">
+        <div class="row mb-4">
+            <div class="col-xl-6">
+               <div class="cart cart-1 mb-4">
+                  <h3 class="cart-title">Fashion Month Ready in Capital Shop</h3>
+                  <p class="cart-text">Bags & Acsessories & Lingerie & Sportswear & Beauty & Swimwear</p>
+                <button class="button js-open-modal" data-modal="2">
+                    <span class="button-text">View all</span>
+                    <img src="img/btn-arrow.svg" alt="icon: arrow" class="button-icon">
+                </button>
+               </div>
+               <!-- /.cart --> 
+            </div>
+            <!-- /.col-6 -->
+            <div class="col-xl-6">
+                <div class="cart cart-2 mb-4">
+                    <h3 class="cart-title text-light">Catch the Sun: Spring Break Styles From $5.99</h3>
+                    <p class="cart-text text-light">Sweaters & Hoodies & Puffer Jackets & Coats and Jackets & Knit</p>
+                  <button class="button js-open-modal" data-modal="2">
+                      <span class="button-text">View all</span>
+                      <img src="img/btn-arrow.svg" alt="icon: arrow" class="button-icon">
+                  </button>
+                 </div>
+            </div>
+            <!-- /.col-6 -->
+            <div class="col-xl-9 col-lg-6">
+                <div class="cart cart-3 mb-4">
+                    <span class="label">Bestseller</span>
+                    <h3 class="cart-title large">Poplin Top<br> 
+                        With Sleeve Bow9</h3>
+                    <p class="cart-text large">Poplin top with roll neckline, long sleeves</p>
+                    <button class="button js-open-modal" data-modal="2">
+                        <span class="button-price">$129</span>
+                        <span class="button-text">Shop now</span>
+                    </button>
+                 </div>
+            </div>
+            <!-- /.col-9 -->
+            <div class="col-xl-3 col-lg-6">
+                <div class="cart cart-4 mb-4">
+                    <h3 class="cart-title text-light">Printed Shirt<br> with a Bow</h3>
+                    <p class="cart-text text-light">Pink/Sky Blue/Yellow</p>
+                  <span class="card-price">$129</span>
+                 </div>
+            </div>
+            <!-- /.col-3 -->
+        </div>
+
+        <div class="row align-items-center mb-4">
+            <div class="col-9">
+                <h2 class="section-title">New Arrival</h2>
+            </div>
+            <div class="col-3 d-flex justify-content-end">
+                <a href="#" class="more js-open-modal" data-modal="1">View All</a>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-3 col-sm-6">
+                <div class="goods-cart">
+                    <span class="label">New</span><img src="img/Image-1.jpg" alt="image: Embroidered Hoodie" class="goods-image">
+                    <h3 class="goods-title">Embroidered Hoodie</h3>
+                    <p class="goods-description">Yellow/Lilac/Fuchsia/Orange</p>
+                    <span class="goods-price">$89</span>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="goods-cart">
+                    <span class="label">New</span><img src="img/image-2.jpg" alt="image: Faded Beach Trousers" class="goods-image">
+                    <h3 class="goods-title">Faded Beach Trousers</h3>
+                    <p class="goods-description">Navy/Ochre/Black/Khaki</p>
+                    <span class="goods-price">$139</span>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="goods-cart">
+                    <span class="label">New</span><img src="img/image-3.jpg" alt="image: Text T-Shirt" class="goods-image">
+                    <h3 class="goods-title">Text T-Shirt</h3>
+                    <p class="goods-description">White</p>
+                    <span class="goods-price">$59</span>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="goods-cart">
+                    <span class="label">New</span><img src="img/image-4.jpg" alt="image: Striped Long Sleeve Shirt" class="goods-image">
+                    <h3 class="goods-title">Striped Long Sleeve Shirt</h3>
+                    <p class="goods-description">Red/Sky Blue</p>
+                    <span class="goods-price">$119</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /.container -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-7 mb-4 mb-xl-0">
+                    <nav>
+                        <ul class="footer-menu d-sm-flex">
+                            <li class="footer-menu-item"><a href="#" class="footer-menu-link js-open-modal" data-modal="1">Shop</a></li>
+                            <li class="footer-menu-item"><a href="#" class="footer-menu-link js-open-modal" data-modal="1">About Us</a></li>
+                            <li class="footer-menu-item"><a href="#" class="footer-menu-link js-open-modal" data-modal="1">Careers</a></li>
+                            <li class="footer-menu-item"><a href="#" class="footer-menu-link js-open-modal" data-modal="1">FAQ</a></li>
+                            <li class="footer-menu-item"><a href="#" class="footer-menu-link js-open-modal" data-modal="1">Blog</a></li>
+                            <li class="footer-menu-item"><a href="#" class="footer-menu-link js-open-modal" data-modal="1">Contacts</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-lg-3 d-inline-flex align-items-center">
+                    <span class="footer-text">Follow Us</span>
+                    <span class="footer-social">
+                        <a href="#" class="social-link js-open-modal" data-modal="1"><img src="img/Facebook.svg" alt="Facebook" class="social-img"></a>
+                        <a href="#" class="social-link js-open-modal" data-modal="1"><img src="img/Twitter.svg" alt="Twitter" class="social-img"></a>
+                        <a href="#" class="social-link js-open-modal" data-modal="1"><img src="img/Instagram.svg" alt="Instagram" class="social-img"></a>
+                    </span>
+                </div>
+                <div class="col-xl-2 col-lg-3 d-flex justify-content-lg-end mt-4 mt-lg-0">
+                    <span class="footer-text">© 2019 Universal UI Kit</span>
+                </div>
+            </div>
+            <hr class="line" color="white" size="1">
+            <div class="row justify-content-between">
+                <div class="col-lg-4 col-sm-9">
+                    <img class="payment-logo" src="img/visa.png" alt="visa">
+                    <img class="payment-logo" src="img/master.png" alt="master card">
+                    <img class="payment-logo" src="img/paypal.png" alt="pay pal">
+                    <img class="payment-logo" src="img/bitcoin.png" alt="bitcoin">
+                </div>
+                <div class="col-lg-2 col-sm-3 d-flex justify-content-end">
+                    <a href="#" class="top-link d-flex align-items-center">
+                        <span class="top-link-text">Top</span>
+                        <img src="img/icon-top.svg" alt="top" class="top-img">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- модальное окно -->
+
+    <div class="modal-demo" data-modal="1">
+        <!--   Svg иконка для закрытия окна  -->
+        <svg class="modal__cross js-modal-close" xmlns="http://www.w3.org/2000/svg"               viewBox="0 0 24 24"><path d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z"/></svg>
+        <p class="modal__title">Ссылка работает<br>Демо версия сайта</p>
+     </div>
+     
+     <div class="modal-demo" data-modal="2">
+        <!--   Svg иконка для закрытия окна  -->
+        <svg class="modal__cross js-modal-close" xmlns="http://www.w3.org/2000/svg"               viewBox="0 0 24 24"><path d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z"/></svg>
+        <p class="modal__title">Кнопка работает<br>Демо версия сайта</p>
+     </div>
+     
+     <!-- Подложка под модальным окном -->
+     <div class="overlay js-overlay-modal"></div>
+
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/demo.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
