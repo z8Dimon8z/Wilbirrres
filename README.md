@@ -1,2 +1,2 @@
 # Wilbirrres
-Интенсив Glo
+Интенсив Glo Асdemy
